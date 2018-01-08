@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/normalize.css" rel="stylesheet">
+  <title>Facewatch</title>
+  <style>
+
+  @font-face {
+    font-family: Freight Sans Light;
+    src: url(FreightSansLight.otf);
+  }
+  @font-face {
+    font-family: Freight Sans Book;
+    src: url(FreightSansBook.otf);
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Freight Sans Light;
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+    h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+    h4 {
+    color: #989898;
+    text-align: center;
+    font-size: 15px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+  p  {
+    text-align: center;
+    font-family: Freight Sans Light;
+    font-size: 17px;
+    font-weight: 500px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    position: absolute;
+  }
+  ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 45px;
+    left: 930px;
+  }
+  li {
+    display:inline;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Freight Sans Book;
+    letter-spacing: 1px;
+    padding: 15px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a.menu:link {
+    color: black;
+    text-decoration: none;
+  }
+  a.menu:hover {
+    color: #5085C2;
+    text-decoration: none;
+  }
+  .navbutton {
+  padding: 14px 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: Freight Sans Book;
+  position: relative;
+  left: 15px;
+  text-align: center;
+  max-width: 1120px;
+  max-height: 50px;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  }
+  .navbutton:hover {
+  background-color: black;
+  color: white;
+  }
+  #fixedheader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130px;
+    background:white;
+  }
+
+  #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 245px;
+    height: 90px;
+  }
+  #bio {
+    position: absolute;
+    top: 715px;
+    left: 11%;
+    max-width: 1000px;
+  }
+
+  #cover1 {
+    position: absolute;
+    top: 136px;
+    left: 0%;
+    width: 100%;
+  }
+
+  #siren {
+    position: absolute;
+    top: 965px;
+    left: 113px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #id-card {
+    position: absolute;
+    top: 965px;
+    left: 376px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #cloud-computing {
+    position: absolute;
+    top: 965px;
+    left: 640px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #locked {
+    position: absolute;
+    top: 965px;
+    left: 903px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #realtimealerts {
+    position: absolute;
+    top: 1210px;
+    left: 11.25%;
+    max-width: 17.96875%;
+    padding: 10px;
+  }
+  #watchlist {
+    position: absolute;
+    top: 1210px;
+    left: 439px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #reportupload {
+    position: absolute;
+    top: 1210px;
+    left: 672px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #security {
+    position: absolute;
+    top: 1210px;
+    left: 975px;
+    max-width: 230px;
+    padding: 10px;
+  }
+  #usingfr {
+    top: 1270px;
+    left: 105px;
+    max-width: 240px;
+    padding: 10px;
+  }
+  #onceapproved {
+    top: 1270px;
+    left: 367px;
+    max-width: 245px;
+    max-height: 500px;
+    padding: 10px;
+  }
+  #ourdigital {
+    top: 1270px;
+    left: 635px;
+    max-width: 245px;
+    max-height: 500px;
+    padding: 10px;
+  }
+  #youhavecomplete {
+    top: 1270px;
+    left: 900px;
+    max-width: 245px;
+    max-height: 500px;
+    padding: 10px;
+  }
+  #cover2 {
+    position: absolute;
+    width: 100%;
+    top: 1600px;
+    left: 0px;
+  }
+  #testimonials {
+    position: absolute;
+    top: 2232px;
+    left: 40.5%;
+  }
+  #quotesymbol {
+    position: relative;
+    left: 310px;
+    max-width: 45px;
+  }
+  #excellenttech {
+    position: absolute;
+    top: 2400px;
+    left: 295px;
+  }
+  .quoteclass {
+    position: absolute;
+    top: 2370px;
+    left: 300px;
+
+  </style>
+</head>
+
+<body>
+<div id="fixedheader">
+  <a href="index.html">
+  <img id="logo" src="logo.png" alt="Facewatch Logo">
+  </a>
+</div>
+<ul>
+  <li><a class="menu" href="index.html">About</a></li>
+  <li><a class="menu" href="contact.html">Contact</a></li>
+  <a href="https://www.facewatch.co.uk/app/#sign_in" target="blank"><button class="navbutton">Sign In</button></a></a>
+</ul>
+<img id="cover1" src="cover_1.png">
+<img id="cover2" src="cover_2.png">
+
+<h1 id="bio">
+Facewatch is a secure cloud based platform that uses Facial Recognition <i>technology</i>
+to proactively prevent, deter and protect businesses against low level crime
+</h1>
+
+<img id="siren" src="siren.png">
+<img id="id-card" src="id-card.png">
+<img id="cloud-computing" src="cloud-computing.png">
+<img id="locked" src="locked.png">
+
+<h2 id="realtimealerts">Real Time Alerts</h2>
+<h2 id="watchlist">Watchlist</h2>
+<h2 id="reportupload">Report &amp Upload</h2>
+<h2 id="security">Security</h2>
+
+<p id="usingfr">Using facial recognition technology,
+Facewatch matches faces against known offenders within seconds of them
+entering your premises and sends an instant alert for verification and action
+</p>
+<p id="onceapproved">Once approved, you will have full access to our complete database of persons of interest in addition to your own watchlist images. The all-inclusive watchlist is then shared by geography with every Facewatch subscriber
+</p>
+<p id="ourdigital">Our digital incident reporting and intelligence sharing platform makes it easy for you to capture, report and upload information and digital images
+<p id="youhavecomplete">You have complete peace of mind regarding data protection, we use bank grade security and take on full data controller responsibility for the sharing of faces and associated warning flags
+
+<h1 id="testimonials">Testimonials</h1>
+<div class="quoteclass">
+  <img id="quotesymbol" src ="quote.png">
+  <h3>Excellent technology for fighting crime, reducing bureaucracy and saving time.</h3>
+  <h4>— Sir Bernard Hogan Howe, Former Commissioner, Metropolitan Police Service</h4>
+</div>
+</body>
+</html>
