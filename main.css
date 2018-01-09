@@ -1,0 +1,228 @@
+  @font-face {
+    font-family: Freight Sans Light;
+    src: url(FreightSansLight.otf);
+  }
+  @font-face {
+    font-family: Freight Sans Book;
+    src: url(FreightSansBook.otf);
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Freight Sans Light;
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  h2 {
+    text-align: center;
+    font-family: Freight Sans Light;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 50px;
+    letter-spacing: 2px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 10px;
+  }
+  h4 {
+    color: #989898;
+    text-align: center;
+    font-size: 15px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 10px;
+  }
+  p  {
+    text-align: center;
+    font-family: Freight Sans Light;
+    font-size: 17px;
+    font-weight: 500px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 45px;
+    left: 73.5%;
+  }
+  li {
+    display:inline;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Freight Sans Book;
+    letter-spacing: 1px;
+    padding: 15px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a.menu:link {
+    color: black;
+    text-decoration: none;
+  }
+  a.menu:hover {
+    color: #5085C2;
+    text-decoration: none;
+  }
+  .navbutton {
+  padding: 14px 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: Freight Sans Book;
+  position: relative;
+  left: 15px;
+  text-align: center;
+  max-width: 1120px;
+  max-height: 50px;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  }
+  .navbutton:hover {
+  background-color: black;
+  color: white;
+  }
+  .header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130px;
+    background:white;
+  }
+  .stickyheader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130px;
+    background: white;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+  #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 245px;
+    height: 90px;
+  }
+  .cover1 {
+    position: absolute;
+    top: 136px;
+    left: 0%;
+    width: 100%;
+  }
+  .cover2 {
+    position: absolute;
+    top: 1568px;
+    left: 0%;
+    width: 100%;
+  }
+  .bio {
+    position: relative;
+    top: 740px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .propositionsdiv1 {
+    position: absolute;
+    top: 980px;
+    left: 9%;
+    max-width: 250px;
+  }
+  .propositionsdiv2 {
+    position: absolute;
+    top: 980px;
+    left: 30%;
+    max-width: 250px;
+  }
+  .propositionsdiv3 {
+    position: absolute;
+    top: 980px;
+    left: 51%;
+    max-width: 250px;
+  }
+  .propositionsdiv4 {
+    position: absolute;
+    top: 980px;
+    left: 72%;
+    max-width: 250px;
+  }
+  .tesimonialsh1 {
+    position: relative;
+    top: 2015px;
+  }
+  .propositionsimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 230px;
+  }
+  .testimonialsdiv1 {
+    position: relative;
+    top: 2030px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv2 {
+    position: relative;
+    top: 2050px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv3 {
+    position: relative;
+    top: 2070px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv4 {
+    position: relative;
+    top: 2090px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv5 {
+    position: relative;
+    top: 2090px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv6 {
+    position: relative;
+    top: 2090px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsdiv7 {
+    position: relative;
+    top: 2090px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .testimonialsimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 45px;
+  }
+
