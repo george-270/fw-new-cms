@@ -120,6 +120,9 @@
     opacity: 0.5;
     transition: all 0.4s ease;
 }
+.stickyheader:hover {
+    opacity: 1;
+}
   #logo {
     position: absolute;
     top: 20px;
