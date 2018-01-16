@@ -269,6 +269,14 @@
     margin: 0 auto;
     max-width: 900px;
   }
+  #sbdlogo {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 2290px;
+    right: 245px;
+    max-width: 130px;
+  }
   #logo {
     position: absolute;
     top: 20px;
