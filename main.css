@@ -108,7 +108,10 @@
     bottom: 36px;
     width: 28%;
     box-sizing: border-box;
-    padding: 16.5px 20px;
+    padding: 15.5px 20px;
+    font-family: Freight Sans Light;
+    letter-spacing: 1px;
+    font-size: 14px;
   }
   .navbutton {
     padding: 14px 25px;
@@ -151,20 +154,13 @@
     opacity: 0.5;
     transition: all 0.4s ease;
   }
-.stickyheader:hover {
+  .stickyheader:hover {
     opacity: 1;
   }
-.footer {
+  .footer {
     position: absolute;
     bottom: 5px;
     background: grey;
-  }
-  #logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 245px;
-    height: 90px;
   }
   .cover1 {
     position: absolute;
@@ -270,6 +266,13 @@
     margin: 0 auto;
     max-width: 900px;
   }
+  #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 245px;
+    height: 90px;
+  }
   #subscribep {
     position: relative;
     bottom: 49px;
@@ -279,6 +282,8 @@
     position: relative;
     left: 520px;
     bottom: 84.65px;
+    font-weight: 0px;
+    font-family: Freight Sans Light;
   }
   #disclaimerp {
     position: relative;
