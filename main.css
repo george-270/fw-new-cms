@@ -183,25 +183,25 @@
     max-width: 1000px;
     margin: 0 auto;
   }
-  .propositionsdiv1 {
+  .propositionsspan1 {
     position: absolute;
     top: 980px;
     left: 9%;
     max-width: 250px;
   }
-  .propositionsdiv2 {
+  .propositionsspan2 {
     position: absolute;
     top: 980px;
     left: 30%;
     max-width: 250px;
   }
-  .propositionsdiv3 {
+  .propositionsspan3 {
     position: absolute;
     top: 980px;
     left: 51%;
     max-width: 250px;
   }
-  .propositionsdiv4 {
+  .propositionsspan4 {
     position: absolute;
     top: 980px;
     left: 72%;
